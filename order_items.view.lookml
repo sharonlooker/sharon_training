@@ -21,10 +21,6 @@
     type: time
     timeframes: [time, date, week, month]
     sql: ${TABLE}.returned_at
-  
-  - dimension: days_since_user_signup
-    type: number
-    sql: datediff('days', ${users.created_date},${returned_date})
 
   - dimension: sale_price
     type: number
