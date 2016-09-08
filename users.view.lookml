@@ -21,7 +21,7 @@
 
   - dimension_group: created
     type: time
-    timeframes: [time, date, week, month, day_of_week]
+    timeframes: [time, date, week, month]
     sql: ${TABLE}.created_at
 
   - dimension: email
