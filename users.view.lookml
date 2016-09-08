@@ -55,8 +55,4 @@
   - measure: count
     type: count
     drill_fields: [id, first_name, last_name, orders.count]
-    
-  - measure: avg_age
-    type: avg
-    sql: ${age} 
 
