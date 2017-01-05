@@ -25,11 +25,6 @@ view: order_items {
     sql: ${TABLE}.returned_at ;;
   }
 
-  dimension: days_since_user_returned {
-    type: number
-    sql: datediff('days', ${users.created_date}, ${order_items.returned_date}) ;;
-  }
-
   dimension: sale_price {
     type: number
     sql: ${TABLE}.sale_price ;;
