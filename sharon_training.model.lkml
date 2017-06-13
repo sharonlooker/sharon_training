@@ -15,7 +15,9 @@ explore: order_items {}
 
 #######
 ##### someone else #####
+explore: orders {}
 
+explore: users {}
 
 #######
 #######
