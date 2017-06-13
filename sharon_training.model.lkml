@@ -9,6 +9,9 @@ include: "*.dashboard"
 #######
 #### Sharon #####
 explore: order_items {}
+
+
+explore: inventory_items {}
 ############
 ############
 
