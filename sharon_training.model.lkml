@@ -18,7 +18,12 @@ explore: inventory_items {}
 
 #######
 ##### someone else #####
+explore: orders {}
 
+
+# explore: blah_blah{}
+
+explore: users {}
 
 #######
 #######
