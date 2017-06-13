@@ -5,25 +5,3 @@ include: "*.view"
 
 # include all the dashboards
 include: "*.dashboard"
-
-#######
-#### Sharon #####
-explore: order_items {}
-
-
-explore: inventory_items {}
-############
-############
-
-
-#######
-##### someone else #####
-explore: orders {}
-
-
-# explore: blah_blah{}
-
-explore: users {}
-
-#######
-#######
